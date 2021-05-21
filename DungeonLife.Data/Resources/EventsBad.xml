@@ -1,0 +1,18 @@
+<data>
+  <Events>
+    <ID>1</ID>
+    <Event>LosePet</Event>
+    <Weight>10</Weight>
+    <Keyword>Pet</Keyword>
+    <Actionkeys>LoseHappy,LosePet</Actionkeys>
+    <Text>Your pet has died.</Text>
+  </Events>
+  <Events>
+    <ID>2</ID>
+    <Event>LoseSibling</Event>
+    <Weight>10</Weight>
+    <Keyword>Sibling</Keyword>
+    <Actionkeys>LoseSibling</Actionkeys>
+    <Text>Your Sibling has died.</Text>
+  </Events>
+</data>

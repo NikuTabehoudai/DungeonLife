@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Occupations>
+  <Jobs>
+    <Occupation>Unemployed</Occupation>
+    <Occupation>Actor</Occupation>
+    <Occupation>Advocate</Occupation>
+    <Occupation>Alchemist</Occupation>
+    <Occupation>Animal Handler</Occupation>
+    <Occupation>Apothecary</Occupation>
+    <Occupation>Archer</Occupation>
+    <Occupation>Architect</Occupation>
+    <Occupation>Archivist</Occupation>
+    <Occupation>Aristocrat</Occupation>
+    <Occupation>Armorer</Occupation>
+    <Occupation>Artisan</Occupation>
+    <Occupation>Artist</Occupation>
+    <Occupation>Astrologer</Occupation>
+    <Occupation>Baker</Occupation>
+    <Occupation>Banker</Occupation>
+    <Occupation>Barber</Occupation>
+    <Occupation>Bard</Occupation>
+    <Occupation>Barkeep</Occupation>
+    <Occupation>Barmaid</Occupation>
+    <Occupation>Beekeeper</Occupation>
+    <Occupation>Beer Seller</Occupation>
+    <Occupation>Beggar</Occupation>
+    <Occupation>Blacksmith</Occupation>
+    <Occupation>Boatman</Occupation>
+    <Occupation>Bookbinder</Occupation>
+    <Occupation>Bookseller</Occupation>
+    <Occupation>Brewer</Occupation>
+    <Occupation>Brick Maker</Occupation>
+    <Occupation>Bricklayer</Occupation>
+    <Occupation>Brigand</Occupation>
+    <Occupation>Brothel Keeper</Occupation>
+    <Occupation>Buckle Maker</Occupation>
+    <Occupation>Builder</Occupation>
+    <Occupation>Butcher</Occupation>
+    <Occupation>Caravan Leader</Occupation>
+    <Occupation>Carpenter</Occupation>
+    <Occupation>Cartographer</Occupation>
+    <Occupation>Chandler</Occupation>
+    <Occupation>Charioteer</Occupation>
+    <Occupation>Chatelaine</Occupation>
+    <Occupation>Chef</Occupation>
+    <Occupation>Chieftain</Occupation>
+    <Occupation>Chirurgeon</Occupation>
+    <Occupation>Clergyman</Occupation>
+    <Occupation>Clerk</Occupation>
+    <Occupation>Clock Maker</Occupation>
+    <Occupation>Clothworker</Occupation>
+    <Occupation>Cobbler</Occupation>
+    <Occupation>Commander</Occupation>
+    <Occupation>Concubine</Occupation>
+    <Occupation>Cook</Occupation>
+    <Occupation>Cooper</Occupation>
+    <Occupation>Copyist</Occupation>
+    <Occupation>Costermonger</Occupation>
+    <Occupation>Counselor</Occupation>
+    <Occupation>Courtesan</Occupation>
+    <Occupation>Courtier</Occupation>
+    <Occupation>Cowherd</Occupation>
+    <Occupation>Crossbowman</Occupation>
+    <Occupation>Cutler</Occupation>
+    <Occupation>Dairymaid</Occupation>
+    <Occupation>Dancer</Occupation>
+    <Occupation>Diplomat</Occupation>
+    <Occupation>Distiller</Occupation>
+    <Occupation>Diver</Occupation>
+    <Occupation>Diviner</Occupation>
+    <Occupation>Doctor</Occupation>
+    <Occupation>Domestic Servant</Occupation>
+    <Occupation>Explorer</Occupation>
+    <Occupation>Farmer</Occupation>
+    <Occupation>Fisherman</Occupation>
+    <Occupation>Fishmonger</Occupation>
+    <Occupation>Footman</Occupation>
+    <Occupation>Furrier</Occupation>
+    <Occupation>Galley Slave</Occupation>
+    <Occupation>Gardener</Occupation>
+    <Occupation>Geisha</Occupation>
+    <Occupation>General</Occupation>
+    <Occupation>Gladiator</Occupation>
+    <Occupation>Glovemaker</Occupation>
+    <Occupation>Goldsmith</Occupation>
+    <Occupation>Grocer</Occupation>
+    <Occupation>Groom</Occupation>
+    <Occupation>Guardsman</Occupation>
+    <Occupation>Guildmaster</Occupation>
+    <Occupation>Harness maker</Occupation>
+    <Occupation>Hatmaker</Occupation>
+    <Occupation>Hay merchant</Occupation>
+    <Occupation>Healer</Occupation>
+    <Occupation>Hearthwitch</Occupation>
+    <Occupation>Herald</Occupation>
+    <Occupation>Herbalist</Occupation>
+    <Occupation>Herder</Occupation>
+    <Occupation>Hermit</Occupation>
+    <Occupation>Highwayman</Occupation>
+    <Occupation>Historian</Occupation>
+    <Occupation>Housemaid</Occupation>
+    <Occupation>Hunter</Occupation>
+    <Occupation>Illuminator</Occupation>
+    <Occupation>Infantryman</Occupation>
+    <Occupation>Innkeeper</Occupation>
+    <Occupation>Interpreter</Occupation>
+    <Occupation>Inventor</Occupation>
+    <Occupation>Jailer</Occupation>
+    <Occupation>Jester</Occupation>
+    <Occupation>Jeweler</Occupation>
+    <Occupation>Jongleur</Occupation>
+    <Occupation>Judge</Occupation>
+    <Occupation>Kitchen drudge</Occupation>
+    <Occupation>Knight</Occupation>
+    <Occupation>Laborer</Occupation>
+    <Occupation>Lady in Waiting</Occupation>
+    <Occupation>Leatherworker</Occupation>
+    <Occupation>Librarian</Occupation>
+    <Occupation>Linguist</Occupation>
+    <Occupation>Locksmith</Occupation>
+    <Occupation>Longbowman</Occupation>
+    <Occupation>Longshoreman</Occupation>
+    <Occupation>Lord</Occupation>
+    <Occupation>Maidservant</Occupation>
+    <Occupation>Majordomo</Occupation>
+    <Occupation>Man at Arms</Occupation>
+    <Occupation>Mason</Occupation>
+    <Occupation>Masseur</Occupation>
+    <Occupation>Mayor</Occupation>
+    <Occupation>Mercer</Occupation>
+    <Occupation>Merchant</Occupation>
+    <Occupation>Messenger</Occupation>
+    <Occupation>Midwife</Occupation>
+    <Occupation>Miller</Occupation>
+    <Occupation>Miner</Occupation>
+    <Occupation>Minister</Occupation>
+    <Occupation>Minstrel</Occupation>
+    <Occupation>Monk</Occupation>
+    <Occupation>Mortician</Occupation>
+    <Occupation>Mourner</Occupation>
+    <Occupation>Musician</Occupation>
+    <Occupation>Necromancer</Occupation>
+    <Occupation>Noble</Occupation>
+    <Occupation>Nun</Occupation>
+    <Occupation>Nurse</Occupation>
+    <Occupation>Old-clothes seller</Occupation>
+    <Occupation>Page</Occupation>
+    <Occupation>Painter</Occupation>
+    <Occupation>Pariah</Occupation>
+    <Occupation>Pastry cook</Occupation>
+    <Occupation>Peasant</Occupation>
+    <Occupation>Perfumer</Occupation>
+    <Occupation>Philosopher</Occupation>
+    <Occupation>Physician</Occupation>
+    <Occupation>Pigkeeper</Occupation>
+    <Occupation>Pilgrim</Occupation>
+    <Occupation>Pirate</Occupation>
+    <Occupation>Plasterer</Occupation>
+    <Occupation>Potter</Occupation>
+    <Occupation>Privateer</Occupation>
+    <Occupation>Professor</Occupation>
+    <Occupation>Prostitute</Occupation>
+    <Occupation>Pursemaker</Occupation>
+    <Occupation>Queen</Occupation>
+    <Occupation>Ratcatcher</Occupation>
+    <Occupation>Reeve</Occupation>
+    <Occupation>Roofer</Occupation>
+    <Occupation>Ropemaker</Occupation>
+    <Occupation>Royal Adviser</Occupation>
+    <Occupation>Rugmaker</Occupation>
+    <Occupation>Ruler</Occupation>
+    <Occupation>Saddler</Occupation>
+    <Occupation>Sailor</Occupation>
+    <Occupation>Scabbard maker</Occupation>
+    <Occupation>Scavenger</Occupation>
+    <Occupation>Scholar</Occupation>
+    <Occupation>Scrivener</Occupation>
+    <Occupation>Sculptor</Occupation>
+    <Occupation>Seamstress</Occupation>
+    <Occupation>Servant</Occupation>
+    <Occupation>Shaman</Occupation>
+    <Occupation>Shepherd</Occupation>
+    <Occupation>Ship's captain</Occupation>
+    <Occupation>Shoemaker</Occupation>
+    <Occupation>Silversmith</Occupation>
+    <Occupation>Slave</Occupation>
+    <Occupation>Slaver</Occupation>
+    <Occupation>Smith</Occupation>
+    <Occupation>Soldier</Occupation>
+    <Occupation>Spice Merchant</Occupation>
+    <Occupation>Squire</Occupation>
+    <Occupation>Stablehand</Occupation>
+    <Occupation>Stevedore</Occupation>
+    <Occupation>Steward</Occupation>
+    <Occupation>Stonemason</Occupation>
+    <Occupation>Storyteller</Occupation>
+    <Occupation>Street kid</Occupation>
+    <Occupation>Street seller</Occupation>
+    <Occupation>Street sweeper</Occupation>
+    <Occupation>Student</Occupation>
+    <Occupation>Surgeon</Occupation>
+    <Occupation>Surveyor</Occupation>
+    <Occupation>Swordsman</Occupation>
+    <Occupation>Sycophant</Occupation>
+    <Occupation>Tailor</Occupation>
+    <Occupation>Tanner</Occupation>
+    <Occupation>Tavernkeeper</Occupation>
+    <Occupation>Tax collector</Occupation>
+    <Occupation>Teacher</Occupation>
+    <Occupation>Teamster</Occupation>
+    <Occupation>Thatcher</Occupation>
+    <Occupation>Thief</Occupation>
+    <Occupation>Tinker</Occupation>
+    <Occupation>Torturer</Occupation>
+    <Occupation>Town crier</Occupation>
+    <Occupation>Toymaker</Occupation>
+    <Occupation>Trapper</Occupation>
+    <Occupation>Vendor</Occupation>
+    <Occupation>Vermin catcher</Occupation>
+    <Occupation>Veterinarian</Occupation>
+    <Occupation>Village chief</Occupation>
+    <Occupation>Vintner</Occupation>
+    <Occupation>Water carrier</Occupation>
+    <Occupation>Weaver</Occupation>
+    <Occupation>Wetnurse</Occupation>
+    <Occupation>Wine seller</Occupation>
+    <Occupation>Witch</Occupation>
+    <Occupation>Wood seller</Occupation>
+    <Occupation>Woodcarver</Occupation>
+    <Occupation>Woodcutter</Occupation>
+    <Occupation>Wrestler</Occupation>
+    <Occupation>Writer</Occupation>
+  </Jobs>
+</Occupations>
+

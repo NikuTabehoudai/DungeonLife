@@ -1,0 +1,126 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <StartupObject>DungeonLife.WPF.App</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Images\Test - Copy\**" />
+    <EmbeddedResource Remove="Images\Test - Copy\**" />
+    <None Remove="Images\Test - Copy\**" />
+    <Page Remove="Images\Test - Copy\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Background\CharacterPage.jpg" />
+    <None Remove="Images\Background\DarkWood.jpg" />
+    <None Remove="Images\Background\DarkWood90.jpg" />
+    <None Remove="Images\Background\LeftMenu.jpg" />
+    <None Remove="Images\Background\Parchment-Background.jpg" />
+    <None Remove="Images\Background\PlankBackground.jpg" />
+    <None Remove="Images\CharacterMenu\EquipmentSketch.png" />
+    <None Remove="Images\Menu\Next.png" />
+    <None Remove="Images\Menu\Sign.png" />
+    <None Remove="Images\Menu\Sign1.png" />
+    <None Remove="Images\Menu\Sign2.png" />
+    <None Remove="Images\Menu\Sign3.png" />
+    <None Remove="Images\ProfileBar\BioParchment.png" />
+    <None Remove="Images\ProfileBar\Character.png" />
+    <None Remove="Images\ProfileBar\CharacterFrame.png" />
+    <None Remove="Images\Test\EquipmentTest.png" />
+    <None Remove="Views\DungeonLifeView.xaml.cs.Old" />
+    <None Remove="Views\DungeonLifeView.xaml.Old" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MvvmCross" Version="7.1.2" />
+    <PackageReference Include="MvvmCross.Platforms.Wpf" Version="7.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DungeonLife.Core\DungeonLife.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\Endor.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\Script.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\Sig.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Background\CharacterPage.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Background\DarkWood.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Background\DarkWood90.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Background\LeftMenu.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Background\Parchment-Background.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Background\PlankBackground.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\CharacterMenu\EquipmentSketch.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Menu\Next.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Menu\Sign.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Menu\Sign1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Menu\Sign2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Menu\Sign3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\ProfileBar\BioParchment.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\ProfileBar\Character.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\ProfileBar\CharacterFrame.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Test\EquipmentTest.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,151 @@
+﻿<UserControl x:Class="DungeonLife.WPF.Views.DungeonLifeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:DungeonLife.WPF.Views"
+        mc:Ignorable="d"
+        Title="DungeonLifeView" Height="800" Width="1024"
+       >
+
+    <!-- base Layout -->
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="5"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="200"/>   
+            <RowDefinition/>
+            <RowDefinition Height="5"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Backgrounds -->
+        <Image Source="/Images/Background/DarkWood.jpg" Grid.RowSpan="2" Grid.ColumnSpan="4" Stretch="fill"/>
+        <Image Source="/Images/Background/parchment-background.jpg" Grid.Row="2" Grid.Column="2" Grid.RowSpan="2" Grid.ColumnSpan="2" Stretch="fill"/>
+        <Image Source="/Images/Background/DarkWood90.jpg"  Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="2" Stretch="fill"/>
+
+        <!-- Next Turn -->
+        <Image Source="/Images/Menu/Next.png" Grid.Row="1" Grid.Column="1"/>
+        <Viewbox Grid.Row="1" Grid.Column="1">
+            <TextBlock Margin="10" FontFamily="/Fonts/#Endor" Foreground="PaleGoldenrod">End Turn</TextBlock>
+        </Viewbox>
+
+        <!-- Profile bar -->
+        <Grid Grid.Row="1" Grid.Column="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+            
+            <!-- portrait -->
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="37"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="13"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="25"/>
+                </Grid.ColumnDefinitions>
+            <Image Source="/Images/ProfileBar/Character.png" Grid.Row="1" Grid.Column="1"/>
+            </Grid>
+            <Image Source="/Images/ProfileBar/CharacterFrame.png" Grid.Column="3" />
+
+            <!-- Character Details -->
+            <Image Source="/Images/ProfileBar/BioParchment.png" Stretch="fill" Grid.Column="1"/>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="5"/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition Height="5"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Row="1" Grid.Column="0" Margin="10" FontFamily="Freestyle Script" FontSize="20" Foreground="Black" HorizontalAlignment="Right"> Name: </TextBlock>
+                <TextBlock Grid.Row="1" Grid.Column="1" Margin="10" FontFamily="Freestyle Script" FontSize="20" Foreground="Black" >Placeholder</TextBlock>
+
+                <TextBlock Grid.Row="2" Grid.Column="0" Margin="10" FontFamily="Freestyle Script" FontSize="20" Foreground="Black" HorizontalAlignment="Right"> Age:</TextBlock>
+                <TextBlock Grid.Row="2" Grid.Column="1" Margin="10" FontFamily="Freestyle Script" FontSize="20" Foreground="Black" > Placeholder</TextBlock>
+
+                <TextBlock Grid.Row="3" Grid.Column="0" Margin="10" FontFamily="Freestyle Script" FontSize="20" Foreground="Black" HorizontalAlignment="Right"> Sex:</TextBlock>
+                <TextBlock Grid.Row="3" Grid.Column="1" Margin="10" FontFamily="Freestyle Script" FontSize="20" Foreground="Black" > Placeholder</TextBlock>
+
+                <TextBlock Grid.Row="4" Grid.Column="0" Margin="10" FontFamily="Freestyle Script" FontSize="20" Foreground="Black" HorizontalAlignment="Right"> Class:</TextBlock>
+                <TextBlock Grid.Row="4" Grid.Column="1" Margin="10" FontFamily="Freestyle Script" FontSize="20" Foreground="Black" > Placeholder</TextBlock>
+
+                <TextBlock Grid.Row="5" Grid.Column="0" Margin="10" FontFamily="Freestyle Script" FontSize="20" Foreground="Black" HorizontalAlignment="Right"> Level:</TextBlock>
+                <TextBlock Grid.Row="5" Grid.Column="1" Margin="10" FontFamily="Freestyle Script" FontSize="20" Foreground="Black" > Placeholder</TextBlock>
+            </Grid>
+            
+
+
+        </Grid>
+
+        <!-- Menu Buttons -->
+        <Grid Grid.Row="2" Grid.Column="1">
+            <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="20"/>
+            </Grid.ColumnDefinitions>
+                
+            <Image Source="/Images/Menu/Next.png" Grid.Column="1" Grid.Row="0"/>
+            <Viewbox Grid.Column="1" Grid.Row="0">
+                <TextBlock Margin="10" FontFamily="/Fonts/#Endor" Foreground="PaleGoldenrod">Character</TextBlock>
+            </Viewbox>
+            
+            <Image Source="/Images/Menu/Next.png" Grid.Column="1" Grid.Row="1"/>
+            <Viewbox Grid.Column="1" Grid.Row="1">
+                <TextBlock Margin="10" FontFamily="/Fonts/#Endor" Foreground="PaleGoldenrod">Skills</TextBlock>
+            </Viewbox>
+            
+            <Image Source="/Images/Menu/Next.png" Grid.Column="1" Grid.Row="2"/>
+            <Viewbox Grid.Column="1" Grid.Row="2">
+                <TextBlock Margin="10" FontFamily="/Fonts/#Endor" Foreground="PaleGoldenrod">Placeholder</TextBlock>
+            </Viewbox>
+                
+            <Image Source="/Images/Menu/Next.png" Grid.Column="1" Grid.Row="3"/>
+            <Viewbox Grid.Column="1" Grid.Row="3">
+                <TextBlock Margin="10" FontFamily="/Fonts/#Endor" Foreground="PaleGoldenrod">Placeholder</TextBlock>
+            </Viewbox>
+                
+            <Image Source="/Images/Menu/Next.png" Grid.Column="1" Grid.Row="4"/>
+            <Viewbox Grid.Column="1" Grid.Row="4">
+                <TextBlock Margin="10" FontFamily="/Fonts/#Endor" Foreground="PaleGoldenrod">Placeholder</TextBlock>
+            </Viewbox>
+                
+            <Image Source="/Images/Menu/Next.png" Grid.Column="1" Grid.Row="5"/>
+            <Viewbox Grid.Column="1" Grid.Row="5">
+                <TextBlock Margin="10" FontFamily="/Fonts/#Endor" Foreground="PaleGoldenrod">Placeholder</TextBlock>
+            </Viewbox>
+        </Grid>
+
+        <!-- Message Box -->
+        <TextBlock Margin="10" FontFamily="Freestyle Script" FontSize="20" Grid.Row="2" Grid.Column="2" TextWrapping="Wrap">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu augue ut lectus arcu. Cras adipiscing enim eu turpis egestas pretium aenean pharetra magna. Lacus sed turpis tincidunt id aliquet risus feugiat. Eu facilisis sed odio morbi quis commodo odio.
+        </TextBlock>
+
+    </Grid>
+</UserControl>

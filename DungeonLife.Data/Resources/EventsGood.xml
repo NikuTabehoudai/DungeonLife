@@ -1,0 +1,19 @@
+<data>
+  <Events>
+    <ID>1</ID>
+    <Event>GetPet</Event>
+    <Weight>10</Weight>
+    <Keyword>Parents</Keyword>
+    <Actionkeys>GainHappy,GainPet</Actionkeys>
+    <Text>You're parents bought you a new pet.</Text>
+  </Events>
+  <Events>
+    <ID>2</ID>
+    <Event>GetSibling</Event>
+    <Weight>10</Weight>
+    <Keyword>Parents</Keyword>
+    <Actionkeys>GainSibling</Actionkeys>
+    <Text>You're parents had a new baby.</Text>
+  </Events>
+</data>
+

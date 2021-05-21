@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonLife.Core", "DungeonLife.Core\DungeonLife.Core.csproj", "{8227BB22-A084-4AB6-9340-9B884EBF31A2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2893A62A-58B0-4C3D-B1B6-5A1D2AA7686A} = {2893A62A-58B0-4C3D-B1B6-5A1D2AA7686A}
+		{534E1D6A-47CF-4105-9599-049E9F927BA3} = {534E1D6A-47CF-4105-9599-049E9F927BA3}
+		{587B0EEE-2DA0-416C-AF9A-5F46896E3282} = {587B0EEE-2DA0-416C-AF9A-5F46896E3282}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonLife.Models", "DungeonLife.Models\DungeonLife.Models.csproj", "{534E1D6A-47CF-4105-9599-049E9F927BA3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2893A62A-58B0-4C3D-B1B6-5A1D2AA7686A} = {2893A62A-58B0-4C3D-B1B6-5A1D2AA7686A}
+		{587B0EEE-2DA0-416C-AF9A-5F46896E3282} = {587B0EEE-2DA0-416C-AF9A-5F46896E3282}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonLife.Data", "DungeonLife.Data\DungeonLife.Data.csproj", "{587B0EEE-2DA0-416C-AF9A-5F46896E3282}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2893A62A-58B0-4C3D-B1B6-5A1D2AA7686A} = {2893A62A-58B0-4C3D-B1B6-5A1D2AA7686A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonLife.Utilities", "DungeonLife.Utilities\DungeonLife.Utilities.csproj", "{2893A62A-58B0-4C3D-B1B6-5A1D2AA7686A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DungeonLife.WPF", "DungeonLife.WPF\DungeonLife.WPF.csproj", "{5BD3CF5D-0505-4097-B4A0-2629E277B642}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8227BB22-A084-4AB6-9340-9B884EBF31A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8227BB22-A084-4AB6-9340-9B884EBF31A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8227BB22-A084-4AB6-9340-9B884EBF31A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8227BB22-A084-4AB6-9340-9B884EBF31A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{534E1D6A-47CF-4105-9599-049E9F927BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{534E1D6A-47CF-4105-9599-049E9F927BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{534E1D6A-47CF-4105-9599-049E9F927BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{534E1D6A-47CF-4105-9599-049E9F927BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{587B0EEE-2DA0-416C-AF9A-5F46896E3282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587B0EEE-2DA0-416C-AF9A-5F46896E3282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587B0EEE-2DA0-416C-AF9A-5F46896E3282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587B0EEE-2DA0-416C-AF9A-5F46896E3282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2893A62A-58B0-4C3D-B1B6-5A1D2AA7686A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2893A62A-58B0-4C3D-B1B6-5A1D2AA7686A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2893A62A-58B0-4C3D-B1B6-5A1D2AA7686A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2893A62A-58B0-4C3D-B1B6-5A1D2AA7686A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD3CF5D-0505-4097-B4A0-2629E277B642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD3CF5D-0505-4097-B4A0-2629E277B642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD3CF5D-0505-4097-B4A0-2629E277B642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD3CF5D-0505-4097-B4A0-2629E277B642}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E356B2D-47B8-4CFA-B1D7-5F381D46A210}
+	EndGlobalSection
+EndGlobal
