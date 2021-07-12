@@ -54,10 +54,5 @@ namespace DungeonLife.Data
         {
             Age++;
         }
-
-        private void SetName()
-        {
-
-        }
     }
 }

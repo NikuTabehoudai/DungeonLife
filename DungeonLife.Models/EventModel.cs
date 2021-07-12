@@ -26,22 +26,23 @@ namespace DungeonLife.Models
             SetEventType();
         }
 
-        public void SelectEvent(DungeonLifeModel dungeonLifeModel)
+        public DungeonLifeModel SelectEvent(DungeonLifeModel dungeonLifeModel)
         {
             var type = _EventType.NextWithReplacement();
 
             switch (type)
             {
                 case "Good":
-                    ExecuteEvent(_AGoodEvents.NextWithReplacement(), type, dungeonLifeModel);
+                    dungeonLifeModel = ExecuteEvent(_AGoodEvents.NextWithReplacement(), type, dungeonLifeModel);
                     break;
                 case "Bad":
-                    ExecuteEvent(_ABadEvents.NextWithReplacement(), type, dungeonLifeModel);
+                    dungeonLifeModel = ExecuteEvent(_ABadEvents.NextWithReplacement(), type, dungeonLifeModel);
                     break;
             }
+            return dungeonLifeModel;
         }
 
-        private void ExecuteEvent(int ID, string type, DungeonLifeModel dungeonLifeModel)
+        private DungeonLifeModel ExecuteEvent(int ID, string type, DungeonLifeModel dungeonLifeModel)
         {
             List<string> actionKeys = new List<string>();
             string text = null;
@@ -58,8 +59,12 @@ namespace DungeonLife.Models
                     break;
             }
 
-
-            
+           var actionKeysReturn =  new ActionKeys().ExecuteActionKeys(actionKeys, dungeonLifeModel.Player, dungeonLifeModel.Family, dungeonLifeModel.Pets);
+            dungeonLifeModel.History.Add(text);
+            dungeonLifeModel.Player = actionKeysReturn.Item1;
+            dungeonLifeModel.Family = actionKeysReturn.Item2;
+            dungeonLifeModel.Pets = actionKeysReturn.Item3;
+            return dungeonLifeModel;
         }
 
         public void PopulateEvents(List<string> keywords)

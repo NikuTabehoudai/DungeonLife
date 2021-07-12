@@ -42,6 +42,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActionKeys.cs" />
+    <Compile Include="ActionsKeys\GainHappy.cs" />
+    <Compile Include="ActionsKeys\GainPet.cs" />
+    <Compile Include="ActionsKeys\GainSibling.cs" />
+    <Compile Include="ActionsKeys\LoseHappy.cs" />
+    <Compile Include="ActionsKeys\LosePet.cs" />
+    <Compile Include="ActionsKeys\LoseSibling.cs" />
+    <Compile Include="ActionsKeys\ParentGetJob.cs" />
+    <Compile Include="ActionsKeys\ParentLoseJob.cs" />
     <Compile Include="Event.cs" />
     <Compile Include="Imports\EventsImport.cs" />
     <Compile Include="Imports\NamesImport.cs" />

@@ -28,7 +28,7 @@ namespace DungeonLife.Core.ViewModels
             RetreivePlayer();
             FamilyList = Data.Family;
             HistoryList = Data.History;
-
+            Events = new EventModel(Data.Player.Keywords.RetreiveKeywords());
 
         }
 
@@ -406,7 +406,6 @@ namespace DungeonLife.Core.ViewModels
         private void EndTurn()
         {
             Data.EndTurn();
-
             ResetFamList();
             //AddHistory("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus, diam ac aliquet pretium, velit enim porta ipsum, non eleifend elit enim ut massa. In at interdum leo. Nunc sed nisi nec magna finibus dictum. Nam ultrices pulvinar augue, vel gravida est gravida a. Quisque feugiat vulputate lectus sed hendrerit. Curabitur enim risus, rutrum efficitur volutpat ac, auctor quis neque. Nullam finibus ligula sapien, vitae dapibus eros molestie vitae.");
             // for testing
